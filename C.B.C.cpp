@@ -1,9 +1,5 @@
 /*
 The goal here is pretty simple; a free, (currently) very basic alternate calculator for 3ds/2ds owners, with access to the HB launcher.
-This is my first attempt at coding anything, so if anything seems noobish, refer to this comment. Thanks.
-
--UPDATE- By now, there have been other, more successful attempts at creating a free calculator for 3/2ds systems, and as a result, I am ending 
-this project. It's been fun.
 */
 #include <stdio.h>
 #include <conio.h>
@@ -30,9 +26,9 @@ int main(int argc, char** argv)
 	while(1) {
 		
 
-	cout << "|+++++|                        =====C.B.C=====                           |+++++|                           (Command Based Calculator)\n                                    (1.1)\n                            -----------------------\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n                          Select ONE of the following:\n\n                                  -Addition\n\n                                  -Multiplication\n\n                                  -Subtraction\n\n                                  -Division:\n";
+	cout << "|+++++|                        =====C.B.C=====                           |+++++|                           (Command Based Calculator)\n                                    (1.0)\n                            -----------------------\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n                          Select ONE of the following:\n\n                                  -Addition\n\n                                  -Multiplication\n\n                                  -Subtraction\n\n                                  -Division:\n";
 	cin >> blanks;
-	//Checking if human is searching for an easter egg (or something to complain about); submiting blank commands.
+	//Checking if human is searching for an easter egg; submiting blank commands.
 	if(blanks.length() < 8)
 	{
 		cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...Get back down there! 0_o\n\n[?]\n\n";
