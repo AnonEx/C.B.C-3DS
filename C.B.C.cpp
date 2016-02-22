@@ -34,7 +34,7 @@ int main(int argc, char** argv)
 	{ 
 	//Multiplication
 	 //2nd column down
-		cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
+		cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
 		cin >> multiplication;
 		if(multiplication.length() == 14) 
 		{
@@ -59,7 +59,7 @@ int main(int argc, char** argv)
 		{
 			// Division
 			// 3rd column down.
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
+			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
 			cin >> division;
 			if(division.length() == 8)
 			{
@@ -85,7 +85,7 @@ int main(int argc, char** argv)
 			// Subtraction
 			// 4th column down
 			
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
+			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n";
 		    cin >> subtraction;
 		    if(subtraction.length() == 11)
 		    {
@@ -112,7 +112,7 @@ int main(int argc, char** argv)
 			// Addition
 			// 5th column down
 			
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n"; 
+			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            |   Control Commands  |\n                            ~~~~~~~~~~~~~~~~~~~~~~~\n                            |  UP = Multiplication|\n                            |  RIGHT = Division   |\n                            |  DOWN = Subtraction |\n                            |  LEFT = Addition    |\n                            |  A = Enter          |           \n                            |  X = 1 number up    |           \n                            |  Y = 1 number down  |                         \n                            -----------------------\n\n\n\n\n\n\n\n\n\n\n\nRe-enter command to confirm:\n\n"; 
 			cin >> addition_;
 			if(addition_.length() == 9)
 			{
