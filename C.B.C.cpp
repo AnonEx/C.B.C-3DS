@@ -1,6 +1,3 @@
-/*
-The goal here is pretty simple; a free, (currently) very basic alternate calculator for 3ds/2ds owners, with access to the HB launcher.
-*/
 #include <stdio.h>
 #include <conio.h>
 #include <string>
