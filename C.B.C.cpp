@@ -92,7 +92,7 @@ int main(int argc, char** argv)
 		    	
 				
 			printf("\n\n\n\n\n\n\n\n\n\n\n\n\nYou have selected Subtraction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-	    	printf("-------------------------------------------------------------------------------\n        ||         3DS Basic Subtraction Calculator v1.0         ||\n-------------------------------------------------------------------------------\n\n(Press A to submit command)\n(or press START to exit)\n\n\n-Enter your two numbers:\n");
+	    	printf("-------------------------------------------------------------------------------\n        ||         3DS Basic Subtraction Calculator v1.0         ||\n-------------------------------------------------------------------------------\n\n(Press A to submit command)\n(or press START to exit)\n\n\n-Enter two numbers:\n");
 	        
 				     
 				     int num1s;
